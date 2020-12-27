@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JClientServer" />
+        <module name="JClient" />
+        <module name="JServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JClient" target="15" />
       <module name="JClientServer" target="8" />
+      <module name="JServer" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
